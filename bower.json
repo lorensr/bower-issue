@@ -2,5 +2,10 @@
   "name": "scratch",
   "dependencies" : {
     "inobounce": "https://github.com/lazd/iNoBounce.git"
+  },
+  "overrides": {
+    "inobounce": {
+      "main": "inobounce.js"
+    }
   }
 }
